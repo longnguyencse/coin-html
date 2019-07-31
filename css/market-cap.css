@@ -9,6 +9,7 @@ table {
 td, th {
     border: 1px solid transparent; /* No more visible border */
     height: 30px;
+    font-family: Helvetica, Arial, sans-serif;
 }
 
 th {
@@ -74,6 +75,7 @@ table tr:nth-child(odd) td {
     text-decoration: none;
     line-height: 1.4;
     font-size: 50px;
+    font-family: Helvetica, Arial, sans-serif;
     text-transform: none;
     color: rgb(10, 6, 49);
 }
