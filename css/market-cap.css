@@ -1,6 +1,6 @@
 table {
     color: #333;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     width: 640px;
     border-collapse: collapse;
     border-spacing: 0;
@@ -9,7 +9,9 @@ table {
 td, th {
     border: 1px solid transparent; /* No more visible border */
     height: 30px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
+    background-color: rgb(235, 235, 235);
+    margin-top: 5px;
 }
 
 th {
@@ -71,11 +73,13 @@ table tr:nth-child(odd) td {
 }
 
 #content span {
+    position: relative;
+    top: 25px;
     color: rgb(10, 6, 49);
     text-decoration: none;
     line-height: 1.4;
     font-size: 50px;
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: 'IBM Plex Sans', sans-serif;
     text-transform: none;
     color: rgb(10, 6, 49);
 }
