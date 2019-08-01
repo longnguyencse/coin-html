@@ -70,11 +70,12 @@ table tr:nth-child(odd) td {
     background-color: rgb(255, 201, 6);
     text-align: center;
     margin: auto;
+    padding-top: 50px;
 }
 
 #content span {
     position: relative;
-    top: 25px;
+    /*top: 25px;*/
     color: rgb(10, 6, 49);
     text-decoration: none;
     line-height: 1.4;
@@ -82,17 +83,19 @@ table tr:nth-child(odd) td {
     font-family: 'IBM Plex Sans', sans-serif;
     text-transform: none;
     color: rgb(10, 6, 49);
+    margin-bottom: 30px;
+    display: block;
 }
 
 #table-coin {
     position: relative;
     background-color: white;
-    width: 1236px;
-    height: 100%;
-    top: 50px;
-    bottom: 0px;
-    left: 40px;
-    right: 40px;
+    /*width: 1236px;*/
+    /*height: 100%;*/
+    /*top: 50px;*/
+    /*bottom: 0px;*/
+    /*left: 40px;*/
+    /*right: 40px;*/
 
     border-radius: 25px;
 }
@@ -118,17 +121,13 @@ table tr:nth-child(odd) td {
     /*font-weight: bold;*/
 }
 
-.center-seft {
-
-}
-
-#table-footer img{
+#logo{
     z-index: 225;
     float: right;
     width: 190px;
     height: 100%;
-    left: -255px;
-    top: -116px;
+    left: -154px;
+    top: -345px;
     position: relative;
 }
 
@@ -140,4 +139,17 @@ table tr:nth-child(odd) td {
 
 #table-footer .ftr__left span{
     font-size: 12px;
+}
+
+#table-footer  {
+
+}
+
+.ftr__left img {
+    height: 20px;
+}
+
+.ftr__left span {
+    position: relative !important;
+    top: 0px !important;
 }
