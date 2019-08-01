@@ -4,6 +4,8 @@ table {
     width: 640px;
     border-collapse: collapse;
     border-spacing: 0;
+    border-collapse:separate; 
+border-spacing:0 7px;
 }
 
 td, th {
@@ -27,26 +29,27 @@ tr {
     background-color: rgb(235, 235, 235);
     text-align: center;
     border-radius: 25px;
+    height: 40px;
 }
 
 td:first-child {
-    border-top-left-radius: 10px;
+    border-top-left-radius: 6px;
 }
 td:last-child {
-    border-top-right-radius: 10px;
+    border-top-right-radius: 6px;
 }
 
 td:first-child {
-    border-bottom-left-radius: 10px;
+    border-bottom-left-radius: 6px;
 }
 
 td:last-child {
-    border-bottom-right-radius: 10px;
+    border-bottom-right-radius: 6px;
 }
 
-table tr:nth-child(odd) td {
+/* table tr:nth-child(odd) td {
     background-color: white;
-}
+} */
 
 .container {
     width: 800px;
@@ -57,7 +60,7 @@ table tr:nth-child(odd) td {
 
 .table_con {
     border-radius: 25px;
-    padding-: 50px;
+    padding: 50px;
     width: 567.534px;
     height: 443.278px;
     background-color: white;
@@ -70,7 +73,7 @@ table tr:nth-child(odd) td {
     background-color: rgb(255, 201, 6);
     text-align: center;
     margin: auto;
-    padding-top: 50px;
+    padding: 50px 30px;
 }
 
 #content span {
@@ -96,18 +99,20 @@ table tr:nth-child(odd) td {
     /*bottom: 0px;*/
     /*left: 40px;*/
     /*right: 40px;*/
+    padding: 30px 80px 10px;
 
     border-radius: 25px;
 }
 
 #table-coin table {
     position: relative;
-    left: 123px;
-    right: 123px;
-    top: 50px;
+    width: 100%;
+    /* left: 123px; */
+    /* right: 123px; */
+    /* top: 50px; */
 
-    width: 1005px;
-    height: 560px;
+    /* width: 1005px; */
+    /* height: 560px; */
 
 
 }
@@ -142,7 +147,9 @@ table tr:nth-child(odd) td {
 }
 
 #table-footer  {
-
+    margin: 0 -50px;
+    overflow: hidden;
+    padding-top: 30px;
 }
 
 .ftr__left img {
@@ -152,4 +159,30 @@ table tr:nth-child(odd) td {
 .ftr__left span {
     position: relative !important;
     top: 0px !important;
+}
+.left p {
+    display: inline;
+}
+.left {
+    width: 50%;
+    text-align: left;
+    float: left;
+}
+#table-footer span {
+    padding: 0 5px;
+    font-size: 16px;
+    margin: 0;
+    display: inline-block;
+    vertical-align: bottom;
+}
+
+.right {
+    width: 50%;
+    text-align: right;
+    float: right;
+}
+
+#table-footer .right img, #table-footer .left img {
+    height: 30px;
+    margin-bottom: -2px;
 }
