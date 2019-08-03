@@ -11,7 +11,7 @@
     />
   </head>
   <body>
-    <div class="center-seft">
+    <div class="center-seft" id="frame_content">
       <section id="content">
         <div>
           <span> EST.ROI & Market Cap Of DEEP AI (DEEP) on Bitmax </span>
@@ -81,12 +81,12 @@
               <td>0.00032</td>
               <td>$525,000</td>
             </tr>
-            <tr>
-              <td>/5</td>
-              <td>0.00021</td>
-              <td>0.00025</td>
-              <td>$420,000</td>
-            </tr>
+<!--            <tr>-->
+<!--              <td>/5</td>-->
+<!--              <td>0.00021</td>-->
+<!--              <td>0.00025</td>-->
+<!--              <td>$420,000</td>-->
+<!--            </tr>-->
           </table>
           <div id="table-footer">
               <div class="left">
@@ -105,8 +105,13 @@
               </div>
           </div>
         </div>
-        
+
       </section>
     </div>
   </body>
+<script type="text/javascript">
+    var heightTableContent = document.getElementById("table-coin").offsetHeight;
+    var heightContent = heightTableContent + 142;
+    document.getElementById("content").style.height = heightContent+"px";
+</script>
 </html>

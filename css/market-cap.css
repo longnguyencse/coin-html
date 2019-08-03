@@ -4,7 +4,7 @@ table {
     width: 640px;
     border-collapse: collapse;
     border-spacing: 0;
-    border-collapse:separate; 
+    border-collapse:separate;
 border-spacing:0 7px;
 }
 
@@ -101,7 +101,8 @@ td:last-child {
     /*right: 40px;*/
     padding: 30px 80px 10px;
 
-    border-radius: 25px;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
 }
 
 #table-coin table {
@@ -119,11 +120,13 @@ td:last-child {
 
 #table-coin table th {
     font-weight: bold;
+    font-size: 25px;
     background-color: white;
 }
 
 #table-coin table td {
-    /*font-weight: bold;*/
+    font-weight: bold;
+    font-size: 25px;
 }
 
 #logo{
@@ -167,6 +170,7 @@ td:last-child {
     width: 50%;
     text-align: left;
     float: left;
+    padding-left: 50px;
 }
 #table-footer span {
     padding: 0 5px;
@@ -180,6 +184,7 @@ td:last-child {
     width: 50%;
     text-align: right;
     float: right;
+    padding-right: 50px;
 }
 
 #table-footer .right img, #table-footer .left img {
